@@ -7,7 +7,6 @@ import Home from './home/Home.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    {/* <App /> */}
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
